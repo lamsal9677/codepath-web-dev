@@ -29,13 +29,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [X] Deployed to netflify: https://creatorverse-codepath.netlify.app/
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='creatoverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='creatoverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 
