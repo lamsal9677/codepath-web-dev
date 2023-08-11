@@ -2,7 +2,7 @@
 
 Submitted by: **Sanskar Lamsal**
 
-About this web app: **👉🏿 app description here**
+About this web app: **Creatoverse is a web-app built to explore everyone's favorite creators**
 
 Time spent: **6** hours
 
@@ -24,8 +24,8 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [ ] Picocss is used to style HTML elements
-- [ ] The content creator items are displayed in a creative format, like cards instead of a list
-- [ ] An image of each content creator is shown on their content creator card
+- [X] The content creator items are displayed in a creative format, like cards instead of a list
+- [X] An image of each content creator is shown on their content creator card
 
 The following **additional** features are implemented:
 
@@ -37,16 +37,12 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Building the app needed some planning in the beginning. I was initially starting out without an exact idea of what I was making and ths was making everything harder. Once I started to visualize the app on figma, it was much easier for me to develop the app.
+
 
 ## License
 
