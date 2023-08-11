@@ -1,14 +1,24 @@
-import { useState } from 'react'
 import './App.css'
-import { useRoutes } from 'react-router-dom'
-
+import { Outlet } from 'react-router-dom'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      Hello World
+      Hello Worldd
+      <br />
+      <br />
+      <br />
+      <br />
+      <a href="/add-creators">Add Creators</a>
+      <br />
+      <a href="/show-creators">Show Creators</a>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Outlet />
     </>
   )
 }

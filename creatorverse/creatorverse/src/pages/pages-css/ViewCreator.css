@@ -1,0 +1,55 @@
+.view-creator-page {
+    text-align: center;
+    padding: 20px;
+    /* background-color: red; */
+    max-width: 500px;
+    margin: 0 auto;
+    stroke: black;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-creator-page img {
+    width: 400px; /* Set width to 400px */
+    height: 400px; /* Set height to 400px */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire box */
+    margin-bottom: 20px;
+  }
+  
+  .view-creator-page h2 {
+    font-size: 1.5rem;
+  }
+  
+  .view-creator-page p {
+    margin: 10px 0;
+  }
+  
+  .delete-button {
+    margin-top: 20px;
+    background-color: #e74c3c;
+    border: black;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .delete-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .edit-button {
+    margin-top: 20px;
+    margin-right: 20px; 
+    background-color: blue;
+    border: black;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .edit-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
