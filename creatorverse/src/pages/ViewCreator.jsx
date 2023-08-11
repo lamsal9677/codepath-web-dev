@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const ViewCreator = () => {
   const { creatorId } = useParams();
   const [creator, setCreator] = useState(null);
-  const defaultImageURL = 'https://i.imgur.com/uHz1OsL.jpeg';
+  const defaultImageURL = 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png?20170328184010';
 
   const fetchCreatorData = async () => {
     const { data, error } = await supabase

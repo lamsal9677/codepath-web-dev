@@ -23,7 +23,6 @@ export default function ShowCreators() {
 
   return (
     <div className="show-creators-page">
-      <h1>Content Creators</h1>
       <div className="content-creators-grid">
         {contentCreators.map((creator, index) => (
           <Link key={creator.id} to={`/view-creators/${creator.id}`}>

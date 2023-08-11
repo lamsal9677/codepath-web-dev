@@ -4,7 +4,7 @@ Submitted by: **Sanskar Lamsal**
 
 About this web app: **Creatoverse is a web-app built to explore everyone's favorite creators**
 
-Time spent: **6** hours
+Time spent: **7** hours
 
 ## Required Features
 
@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<img src='creatoverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
 

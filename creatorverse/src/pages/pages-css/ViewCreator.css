@@ -6,6 +6,12 @@
     margin: 0 auto;
     stroke: black;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    /* background-color: red; */
+    background-color: rgba(255, 255, 255, 0.7); /* Glass-like background color with transparency */
+    border-radius: 10px; /* Rounded edges */
+    color: #333; /* Adjust text color */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    text-shadow: none;
   }
   
   .view-creator-page img {
