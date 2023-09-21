@@ -15,7 +15,8 @@ headerRight.className = 'header-right'
 
 //put logo and Name in the left container
 const logo = document.createElement('img')
-logo.src = './yc-logo.png'
+//link to yc logo
+logo.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/1200px-Y_Combinator_logo.svg.png'
 logo.className = 'logo'
 
 const name = document.createElement('h1')

@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 app.use('/companies', companiesRouter)
 
-//app.use('/public', express.static('./public'))
-//app.use('/scripts', express.static('./public/scripts'))
+app.use('/public', express.static('./public'))
+app.use('/scripts', express.static('./public/scripts'))
 
 

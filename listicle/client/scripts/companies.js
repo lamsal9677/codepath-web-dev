@@ -1,4 +1,5 @@
-const mainContent = document.getElementById('main-content')
+const renderCompany = async () => {
+    const mainContent = document.getElementById('main-content')
 
 const response = await fetch('/companies')
 const companies = await response.json()
@@ -9,7 +10,9 @@ companies.forEach(company => {
     const companyDiv = document.createElement('div')
     companyDiv.className = 'card'
     mainContent.appendChild(companyDiv)
-
+    companyDiv.addEventListener('click', () => {
+        window.location.href = `/companies/${company.id}`
+    })
 
     const companyImg = document.createElement('img')
     const companyLogo = `https://logo.clearbit.com/${company.name.replace(' ', '').toLowerCase()}.com`;
@@ -40,3 +43,5 @@ companies.forEach(company => {
     companyDiv.appendChild(companyHeadquarters)
 
 })
+}
+renderCompany();
