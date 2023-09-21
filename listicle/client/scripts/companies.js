@@ -44,4 +44,12 @@ companies.forEach(company => {
 
 })
 }
-renderCompany();
+
+
+const requestedUrl = window.location.href.split('/').pop()
+if (requestedUrl) {
+    window.location.href = '../404.html'
+  }
+  else {
+    renderCompany(); 
+  }
