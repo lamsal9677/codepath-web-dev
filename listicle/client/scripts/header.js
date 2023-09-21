@@ -1,7 +1,8 @@
 console.log('header.js loaded')
-
+//make header
 const header = document.querySelector('header')
 
+//make header container
 const headerContainer = document.createElement('div')
 headerContainer.className = 'header-container'
 
@@ -38,4 +39,3 @@ headerContainer.appendChild(headerRight)
 
 //Put the header container in the header
 header.appendChild(headerContainer)
-
