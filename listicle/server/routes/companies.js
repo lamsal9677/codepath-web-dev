@@ -1,10 +1,9 @@
 import express from 'express'
 const companiesRouter = express.Router()
-import Companies from '../data/companies.js'
+import CompaniesConroller from '../controller/companies.js'
 
-companiesRouter.get('/', (req, res) => {
-    res.status(200).json(Companies)
-})
+
+companiesRouter.get('/', CompaniesConroller.getCompanies)
 
 import path from 'path'
 import { fileURLToPath } from 'url'
